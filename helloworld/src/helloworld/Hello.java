@@ -2,7 +2,7 @@ package helloworld;
 
 public class Hello {
 	void print() {
-		System.out.println("WELCOME TO TNS");
+		System.out.println("WELCOME TO TNSIF");
 	}
 
 	public static void main(String[] args) {
