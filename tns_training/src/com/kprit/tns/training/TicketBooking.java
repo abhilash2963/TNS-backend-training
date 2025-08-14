@@ -5,23 +5,27 @@ public class TicketBooking {
 	private String stageEvent;
 	private String customer;
 	private int noOfSeats;
-	public String getStageEvent() {
-		return stageEvent;
-	}
 	public void setStageEvent(String stageEvent) {
 		this.stageEvent = stageEvent;
 	}
-	public String getCustomer() {
-		return customer;
+	public String getStageEvent() {
+		return stageEvent;
 	}
 	public void setCustomer(String customer) {
 		this.customer = customer;
 	}
-	public int getNoOfSeats() {
-		return noOfSeats;
+	
+	public String getCustomer() {
+		return customer;
 	}
 	public void setNoOfSeats(int noOfSeats) {
 		this.noOfSeats = noOfSeats;
+	}
+	public int getNoOfSeats() {
+		return noOfSeats;
+	}
+	public TicketBooking() {
+		
 	}
 	public TicketBooking(String stageEvent, String 
 			customer, Integer noOfSeats) {

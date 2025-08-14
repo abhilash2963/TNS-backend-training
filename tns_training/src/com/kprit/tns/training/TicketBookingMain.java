@@ -5,16 +5,16 @@ public class TicketBookingMain {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 
-        
+		TicketBooking ob = new TicketBooking();
         System.out.print("Enter Stage Event: ");
         String stageEvent = sc.nextLine();
-
+        ob.setStageEvent(stageEvent);
         System.out.print("Enter Customer Name: ");
         String customer = sc.nextLine();
-
+        ob.setCustomer(customer);
         System.out.print("Enter No. of Seats: ");
         int seats = sc.nextInt();
-
+        ob.setNoOfSeats(seats);
         TicketBooking booking = new TicketBooking(stageEvent, customer, seats);
         System.out.println("\nChoose Payment Method:");
         System.out.println("1. Cash");
